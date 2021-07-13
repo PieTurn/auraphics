@@ -40,7 +40,7 @@ const InfoSection = ({
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                                 
                                 { buttonLabel === "GET STARTED" ? 
-                                    <a target='_blank' href="www.google.com">
+                                    <a target='_blank' rel="noreferrer" href="www.google.com">
                                         <Button big fontBig primary={primary}>
                                             {buttonLabel}
                                         </Button>
@@ -48,7 +48,7 @@ const InfoSection = ({
                                 : "" }
 
                                 { buttonLabel === "Read Reviews" ? 
-                                    <a target='_blank' href="https://www.facebook.com/Auraphics/reviews/?ref=page_internal">
+                                    <a target='_blank' rel="noreferrer" href="https://www.facebook.com/Auraphics/reviews/?ref=page_internal">
                                         <Button big fontBig primary={primary}>
                                             {buttonLabel}
                                         </Button>
@@ -56,7 +56,7 @@ const InfoSection = ({
                                 : "" }
 
                                 { buttonLabel === "View Portfolio" ? 
-                                    <a target='_blank' href="https://dribbble.com/junjiechooo">
+                                    <a target='_blank' rel="noreferrer" href="https://dribbble.com/junjiechooo">
                                         <Button big fontBig primary={primary}>
                                             {buttonLabel}
                                         </Button>
