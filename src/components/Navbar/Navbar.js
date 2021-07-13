@@ -77,7 +77,7 @@ const Navbar = () => {
                             </NavLinks>
                         </NavItem>
                         <NavItemBtn>
-                            <a target='_blank' href="www.google.com">
+                            <a target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSeyeHsv--ediYSrUSemUsvzPc_zeOmZTNVQFsl54t12DIBn7Q/viewform">
                                 <Button primary>Enquire Us</Button>
                             </a>
                         </NavItemBtn>
