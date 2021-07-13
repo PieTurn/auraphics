@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles'; 
+import Logo from '../../images/Auraphics.png';
 import { 
     Nav, 
     NavbarContainer, 
@@ -43,7 +44,7 @@ const Navbar = () => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/" onClick= { closeMobileMenu } >
-                        <NavIcon />
+                        <img src={Logo} alt="Auraphics Logo" width="84rem" height="84rem" style={{ marginTop: "20px", marginRight: "10px" }}/>
                         Auraphics
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
