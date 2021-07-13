@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Container, Button } from '../../globalStyles';
 import { 
     InfoSec, 
@@ -39,7 +39,7 @@ const InfoSection = ({
                                 <Heading lightText = {lightText}>{headline}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                                 
-                                { buttonLabel == "GET STARTED" ? 
+                                { buttonLabel === "GET STARTED" ? 
                                     <a target='_blank' href="www.google.com">
                                         <Button big fontBig primary={primary}>
                                             {buttonLabel}
@@ -47,7 +47,7 @@ const InfoSection = ({
                                     </a>
                                 : "" }
 
-                                { buttonLabel == "Read Reviews" ? 
+                                { buttonLabel === "Read Reviews" ? 
                                     <a target='_blank' href="https://www.facebook.com/Auraphics/reviews/?ref=page_internal">
                                         <Button big fontBig primary={primary}>
                                             {buttonLabel}
@@ -55,7 +55,7 @@ const InfoSection = ({
                                     </a>
                                 : "" }
 
-                                { buttonLabel == "View Portfolio" ? 
+                                { buttonLabel === "View Portfolio" ? 
                                     <a target='_blank' href="https://dribbble.com/junjiechooo">
                                         <Button big fontBig primary={primary}>
                                             {buttonLabel}

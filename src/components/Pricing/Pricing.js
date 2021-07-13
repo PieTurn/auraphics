@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../../globalStyles';
+// import { Button } from '../../globalStyles';
 import { GiVideoConference } from 'react-icons/gi';
 import { GiComputing, GiPencilBrush } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';

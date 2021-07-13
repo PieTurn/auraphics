@@ -7,13 +7,13 @@ import {
     Nav, 
     NavbarContainer, 
     NavLogo, 
-    NavIcon, 
+    // NavIcon, 
     MobileIcon,
     NavMenu,
     NavItem,
     NavLinks,
     NavItemBtn,
-    NavBtnLink
+    // NavBtnLink
 } from './Navbar.elements';
 
 

@@ -2,21 +2,21 @@ import React from 'react';
 import {
     FaFacebook, 
     FaInstagram,
-    FaYoutube,
-    FaTwitter,
+    // FaYoutube,
+    // FaTwitter,
     FaLinkedin,
     FaDribbble,
     FaBehance
 } from 'react-icons/fa';
-import { Button } from '../../globalStyles'; 
+// import { Button } from '../../globalStyles'; 
 import Logo from '../../images/Auraphics.png';
 import { 
     FooterContainer, 
-    FooterSubscription, 
-    FooterSubHeading, 
-    FooterSubText,
-    Form,
-    FormInput,
+    // FooterSubscription, 
+    // FooterSubHeading, 
+    // FooterSubText,
+    // Form,
+    // FormInput,
     FooterLinksContainer,
     FooterLinksWrapper,
     FooterLinksItems,
@@ -28,7 +28,7 @@ import {
     WebsiteRights,
     SocialIcons,
     SocialIconLink,
-    SocialIcon
+    // SocialIcon
 } from './Footer.elements';
 
 const Footer = () => {

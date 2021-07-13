@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Ixora from "../../images/Clients/ixora.png";
 import Singhealth from "../../images/Clients/singhealth.png";
 import GlobalKnight from "../../images/Clients/globalknight.jpg";
