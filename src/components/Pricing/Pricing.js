@@ -26,7 +26,8 @@ function Pricing() {
                     <PricingHeading>Our Services</PricingHeading>
                     <PricingContainer>
 
-                        <PricingCard to='/sign-up'>
+                        {/* <PricingCard to='/sign-up'> */}
+                        <PricingCard>
                             <PricingCardInfo>
                                 <PricingCardIcon>
                                     <GiPencilBrush />
@@ -39,11 +40,11 @@ function Pricing() {
                                     <PricingCardFeature>UXUI Design</PricingCardFeature>
                                     <PricingCardFeature>Photo Edit</PricingCardFeature>
                                 </PricingCardFeatures>
-                                <Button primary>Choose Plan</Button>
+                                {/* <Button primary>Choose Plan</Button> */}
                             </PricingCardInfo>
                         </PricingCard>
 
-                        <PricingCard to='/sign-up'>
+                        <PricingCard>
                             <PricingCardInfo>
                                 <PricingCardIcon>
                                     <GiVideoConference />
@@ -56,11 +57,11 @@ function Pricing() {
                                     <PricingCardFeature>Travel Video</PricingCardFeature>
                                     <PricingCardFeature>& many variety</PricingCardFeature>
                                 </PricingCardFeatures>
-                                <Button primary>Choose Plan</Button>
+                                {/* <Button primary>Choose Plan</Button> */}
                             </PricingCardInfo>
                         </PricingCard>
 
-                        <PricingCard to='/sign-up'>
+                        <PricingCard>
                             <PricingCardInfo>
                                 <PricingCardIcon>
                                     <GiComputing />
@@ -70,10 +71,10 @@ function Pricing() {
                                 <PricingCardLength>starting from</PricingCardLength>
                                 <PricingCardFeatures>
                                 <PricingCardFeature>Portfolio Website</PricingCardFeature>
-                                    <PricingCardFeature>Personal Website</PricingCardFeature>
+                                    <PricingCardFeature>Personal Static Website</PricingCardFeature>
                                     <PricingCardFeature>Company Website</PricingCardFeature>
                                 </PricingCardFeatures>
-                                <Button primary>Choose Plan</Button>
+                                {/* <Button primary>Choose Plan</Button> */}
                             </PricingCardInfo>
                         </PricingCard>
 
