@@ -34,4 +34,11 @@ export const ClientList = styled.div`
         width: 80%;
         height: 100%;
     }
+
+    @media only screen and (max-width: 600px) {
+        img {
+            width: 30%;
+            height: 100%;
+        }
+    }
 `
