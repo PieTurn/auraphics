@@ -14,7 +14,7 @@ export const Content = styled.div`
     grid-template-columns: repeat(6, minmax(0, 1fr));
     padding: 10px 10%;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-device-width: 600px) {
         display: grid;
         grid-gap: 30px;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -35,7 +35,7 @@ export const ClientList = styled.div`
         height: 100%;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-device-width: 600px) {
         img {
             width: 30%;
             height: 100%;
