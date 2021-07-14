@@ -13,6 +13,13 @@ export const Content = styled.div`
     grid-gap: 30px;
     grid-template-columns: repeat(6, minmax(0, 1fr));
     padding: 10px 10%;
+
+    @media only screen and (max-width: 600px) {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: center;
+    }
 `
 
 export const ClientList = styled.div`
@@ -21,7 +28,8 @@ export const ClientList = styled.div`
     /* grid-template-columns: 30% 70%; */
     padding: 10px 0;
     align-items: center;
-
+    place-items: center;
+    
     img {
         width: 80%;
         height: 100%;
