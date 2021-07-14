@@ -17,7 +17,7 @@ export const Content = styled.div`
     @media only screen and (max-device-width: 600px) {
         display: grid;
         grid-gap: 30px;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(1, minmax(0, 1fr));
         align-items: center;
     }
 `

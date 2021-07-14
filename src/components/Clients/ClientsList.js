@@ -51,10 +51,10 @@ const ClientsList = () => {
                 <img src={Eas} alt="" />
             </ClientList>
             <ClientList>
-                <img src={Locomole} alt="" style={{ height: "20%"}}/>
+                <img src={Locomole} alt="" style={{ height: "70%", width: "70%" }}/>
             </ClientList>
             <ClientList>
-                <img src={Aquaseries} alt="" style={{ height: "75%"}}/>
+                <img src={Aquaseries} alt="" style={{ height: "100%"}}/>
             </ClientList>
             <ClientList>
                 <img src={Era} alt="" />
