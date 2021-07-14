@@ -17,7 +17,7 @@ export const Content = styled.div`
     @media only screen and (max-device-width: 600px) {
         display: grid;
         grid-gap: 30px;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         align-items: center;
     }
 `
@@ -31,14 +31,16 @@ export const ClientList = styled.div`
     place-items: center;
     
     img {
-        width: 80%;
-        height: 100%;
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
     @media only screen and (max-device-width: 600px) {
         img {
-            width: 30%;
-            height: 100%;
+            width: 100%;
+            height: auto;
+            display: block;
         }
     }
 `

@@ -51,10 +51,10 @@ const ClientsList = () => {
                 <img src={Eas} alt="" />
             </ClientList>
             <ClientList>
-                <img src={Locomole} alt="" style={{ height: "70%", width: "70%" }}/>
+                <img src={Locomole} alt="" style={{  }}/>
             </ClientList>
             <ClientList>
-                <img src={Aquaseries} alt="" style={{ height: "100%"}}/>
+                <img src={Aquaseries} alt="" style={{ }}/>
             </ClientList>
             <ClientList>
                 <img src={Era} alt="" />
@@ -63,13 +63,13 @@ const ClientsList = () => {
                 <img src={Saf} alt="" />
             </ClientList>
             <ClientList>
-                <img src={Cozykashmir} alt="" style={{ height: "85%"}}/>
+                <img src={Cozykashmir} alt="" style={{ }}/>
             </ClientList>
             <ClientList>
                 <img src={Caringskin} alt="" />
             </ClientList>
             <ClientList>
-                <img src={Roybrew} alt="" style={{ height: "85%"}}/>
+                <img src={Roybrew} alt="" style={{ }}/>
             </ClientList>
             <ClientList>
                 <img src={Carempire} alt="" />
